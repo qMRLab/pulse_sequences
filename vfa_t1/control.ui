@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>695</width>
+    <height>581</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="RthParameterInputWidget" name="inputWidget_FOV">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="title">
+      <string>FOV [cm]</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="RthParameterInputWidget" name="inputWidget_SliceThickness">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="title">
+      <string>Slice Thickness [mm]</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="RthParameterInputWidget" name="inputWidget_FA1">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="title">
+      <string>Flip Angle 1 [deg]</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="RthParameterInputWidget" name="inputWidget_FA2">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="title">
+      <string>Flip Angle 2 [deg]</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="RthParameterInputWidget" name="inputWidget_TR">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="title">
+      <string>TR [ms]</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="RthParameterInputWidget" name="inputWidget_TE">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="title">
+      <string>TE [ms]</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>RthParameterInputWidget</class>
+   <extends>QWidget</extends>
+   <header>RthParameterInputWidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

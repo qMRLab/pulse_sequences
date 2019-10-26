@@ -1,0 +1,36 @@
+[Application]
+defaultName = VFA T1
+interface = lib:threeplane.ui
+continuous = 1
+sharedSlot = Real-Time
+calibrations = RealTimeShimming, Adjustments, CFtuning
+controlScript = control.js
+reconScript = recon.js
+singleJSEngine = false
+continuous = 0
+exclusiveRuns = 2
+
+[excitation]
+type = waveform
+file = SlabSelect.spv
+quadraticPhaseIncrement = 117
+ 
+[echodelay]
+type = delay
+duration = 3000
+
+[readout]
+type = waveform
+file = CartesianReadout3D.spv
+loopIndex = 0
+associatedRF = excitation
+
+[spoiler]
+type = waveform
+file = SpoilerGradient.spv
+
+[tiploop]
+type = loop
+maximumIndex = 2
+loopIndex  = 1
+
