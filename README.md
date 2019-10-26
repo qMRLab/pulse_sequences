@@ -1,2 +1,4 @@
-# pulse_sequences
-Collection of vendor-neutral &amp; open-source pulse sequences developed in RTHawk for qMRI. 
+## Welcome to qMRLab's open-source pulse sequence portal!  
+
+![](/assets/banner.gif)
+
