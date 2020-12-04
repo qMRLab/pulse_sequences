@@ -4,3 +4,6 @@
 [submodule "mt_sat"]
 	path = mt_sat
 	url = https://github.com/qMRLab/mt_sat.git
+[submodule "mt_ratio"]
+	path = mt_ratio
+	url = https://github.com/qMRLab/mt_ratio.git
