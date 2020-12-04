@@ -1,0 +1,52 @@
+{
+    "Vendor": "Siemens",
+    "Model": "Skyra",
+    "FieldStrength": "3T",
+    "Location": "Montreal Heart Institute, Montreal, Canada",
+    "EditedOn": "2020-11-29",
+    "ScannerSoftware": "VE11C",
+    "gradients": [{
+    "X": {
+      "MaxAmplNominal": 20,
+      "MaxAmplNormal": 22,
+      "MaxAmplFast": 24,
+      "MaxAmplAbs": 43, 
+      "MinRiseTimeNormal": 10,
+      "MinRiseTimeFast": 5.55,
+      "MinRiseTimeWhisper": 20,
+      "MinRiseTimeAbs": 5
+    },
+    "Y": {
+        "MaxAmplNominal": 20,
+        "MaxAmplNormal": 22,
+        "MaxAmplFast": 24,
+        "MaxAmplAbs": 43, 
+        "MinRiseTimeNormal": 10,
+        "MinRiseTimeFast": 5.55,
+        "MinRiseTimeWhisper": 20,
+        "MinRiseTimeAbs": 5
+      },
+      "Z": {
+        "MaxAmplNominal": 20,
+        "MaxAmplNormal": 22,
+        "MaxAmplFast": 24,
+        "MaxAmplAbs": 43, 
+        "MinRiseTimeNormal": 10,
+        "MinRiseTimeFast": 5.55,
+        "MinRiseTimeWhisper": 20,
+        "MinRiseTimeAbs": 5
+      },
+    "Loaded":{
+        "Units": "G/cm/ms",
+        "Mode": "Normal",
+        "xMaxAmpl": 2.2,
+        "yMaxAmpl": 2.2,
+        "zMaxAmpl": 2.2, 
+        "xMinRiseTime": 0.22, 
+        "yMinRiseTime": 0.22,
+        "zMinRiseTime": 0.22,
+        
+
+    }
+  }]
+}

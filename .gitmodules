@@ -1,3 +1,6 @@
 [submodule "vfa_t1"]
 	path = vfa_t1
 	url = https://github.com/qMRLab/vfa_t1.git
+[submodule "mt_sat"]
+	path = mt_sat
+	url = https://github.com/qMRLab/mt_sat.git
