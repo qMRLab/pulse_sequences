@@ -7,3 +7,6 @@
 [submodule "mt_ratio"]
 	path = mt_ratio
 	url = https://github.com/qMRLab/mt_ratio.git
+[submodule "b1_afi"]
+	path = b1_afi
+	url = https://github.com/qMRLab/b1_afi.git
